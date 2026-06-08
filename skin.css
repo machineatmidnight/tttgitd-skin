@@ -1,101 +1,100 @@
 #workskin {
-    background-image: linear-gradient(to bottom, #300e51, #1b0321) !important;
-    padding: 1rem;
+  background-image: linear-gradient(to bottom, #300e51, #1b0321) !important;
+  padding: 1rem;
 }
 
 #workskin * {
-    color: white;
+  color: white;
 }
 
 #workskin > .preface .title,
 #workskin > .preface .byline {
-    font-size: 0 !important;
+  font-size: 0 !important;
 }
 
 #workskin > .preface .title {
-    max-width: 900px;
-    margin: auto;
+  max-width: 900px;
+  margin: auto;
 }
 
 #workskin > .preface .title::before {
-    content: " ";
-    display: block;
-    background-image: url("https://github.com/machineatmidnight/tttgitd-skin/blob/main/text.png?raw=true");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    border: 0;
-    margin: auto;
-    width: 100%;
-    height: 0;
-    padding-bottom: 30vh;
+  content: " ";
+  display: block;
+  background-image: url("https://raw.githubusercontent.com/machineatmidnight/tttgitd-skin/refs/heads/main/text.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: 0;
+  margin: auto;
+  width: 100%;
+  height: 0;
+  padding-bottom: 30vh;
 }
 
 #workskin:has(#chapter-1) > .preface .title::before {
-    padding-bottom: 90vh;
-    background-image: url("https://github.com/machineatmidnight/tttgitd-skin/blob/main/cover.png?raw=true") !important;
+  padding-bottom: 90vh;
+  background-image: url("https://raw.githubusercontent.com/machineatmidnight/tttgitd-skin/refs/heads/main/cover.png") !important;
 }
 
 #workskin .heading,
 #workskin .pb {
-    font-family: 'Permanent Marker', 'Brush Script MT', cursive;
-    font-size: 2em;
+  font-family: 'Permanent Marker', 'Brush Script MT', cursive;
+  font-size: 2em;
 }
 
 #workskin .pb {
-    overflow: hidden;
-    text-align: center;
-    vertical-align: .125em;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: .125em;
 }
 
 #workskin .pb::before,
 #workskin .pb::after {
-    background-color: #fff;
-    content: "";
-    display: inline-block;
-    height: 0.1rem;
-    position: relative;
-    vertical-align: middle;
-    width: 50%;
-    top: -0.125em;
+  background-color: #fff;
+  content: "";
+  display: inline-block;
+  height: 0.1rem;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+  top: -0.125em;
 }
 
 #workskin .pb::before {
-    right: 0.5em;
-    margin-left: -50%;
+  right: 0.5em;
+  margin-left: -50%;
 }
 
 #workskin .pb::after {
-    left: 0.5em;
-    margin-right: -50%;
+  left: 0.5em;
+  margin-right: -50%;
 }
 
 #workskin .pbcompat {
-    display: none;
+  display: none;
 }
 
-.chat {
-    background: #3a3b41 !important;
-    /*border: 5px solid #323339 !important;*/
-    border-collapse: collapse; /* Merges cell edges together */
-    border-style: hidden !important; /* Prevents any outer border from rendering */
+#workskin .chat {
+  background: #3a3b41 !important;
+  border-collapse: collapse;
+  border-style: hidden !important;
 }
 
-.chat td {
-    padding: 10px;
-    border-bottom: 2px solid #63646f !important;
-    border-right: 5px solid #63646f !important;
+#workskin .chat td {
+  padding: 10px;
+  border-bottom: 2px solid #63646f !important;
+  border-right: 5px solid #63646f !important;
 }
 
-.chat .user1 {
-    color: #a9cfff !important;
+#workskin .chat .user1 {
+  color: #a9cfff !important;
 }
 
-.chat .user2 {
-    color: #ffb0b0 !important;
+#workskin .chat .user2 {
+  color: #ffb0b0 !important;
 }
 
-.chat .user {
-    font-weight: bold;
-    text-align: right;
+#workskin .chat .user {
+  font-weight: bold;
+  text-align: right;
 }
