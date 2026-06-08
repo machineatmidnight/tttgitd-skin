@@ -20,7 +20,7 @@
 #workskin > .preface .title::before {
     content: " ";
     display: block;
-    background-image: url("https://i.imgur.com/GFoZRzD.png");
+    background-image: url("https://github.com/machineatmidnight/tttgitd-skin/blob/main/text.png?raw=true");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -33,7 +33,7 @@
 
 #workskin:has(#chapter-1) > .preface .title::before {
     padding-bottom: 90vh;
-    background-image: url("https://i.imgur.com/KCk5AcC.png") !important;
+    background-image: url("https://github.com/machineatmidnight/tttgitd-skin/blob/main/cover.png?raw=true") !important;
 }
 
 #workskin .heading,
