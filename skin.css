@@ -94,6 +94,30 @@
   color: #ffb0b0 !important;
 }
 
+#workskin .chat .u-black {
+  color: #c6c6c6 !important;
+}
+
+#workskin .chat .u-purple {
+  color: #dab0ff !important;
+}
+
+#workskin .chat .u-orange {
+  color: #ffc5b0 !important;
+}
+
+#workskin .chat .u-blue {
+  color: #b0bbff !important;
+}
+
+#workskin .chat .u-pink {
+  color: #ffb0fb !important;
+}
+
+#workskin .chat .u-green {
+  color: #cdffb0 !important;
+}
+
 #workskin .chat .user {
   font-weight: bold;
   text-align: right;
